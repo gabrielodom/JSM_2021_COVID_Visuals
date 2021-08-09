@@ -31,10 +31,10 @@ Slides available at <https://rpubs.com/gabrielodom/JSM_2021_COVID_visuals>
 ## The COVID-19 Epidemic in South Florida
 
 - COVID-19 is a highly contagious respiratory infection caused by the novel coronavirus SARS-Cov-2
-- The incubation period is [2-14 days](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html), so observed data lags community transmission 1-2 weeks
+- The incubation period is [2-14 days](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html){target="_blank"}, so observed data lags community transmission 1-2 weeks
 - The South Florida (SFL) metropolitan region is comprised of Miami-Dade, Broward, and Palm Beach counties
 - There are roughly 6.4 million people in these three counties (30% of the state's total population)
-- As of [today](https://www.nytimes.com/interactive/2021/us/florida-covid-cases.html), Florida has had 2.7 million COVID-19 cases (1 million in SFL) and 39965 deaths (`r format(eval(6472 + 3079 + 2883), scientific = FALSE)` in SFL) since March 5, 2020
+- As of [today](https://www.nytimes.com/interactive/2021/us/florida-covid-cases.html){target="_blank"}, Florida has had 2.7 million COVID-19 cases (1 million in SFL) and 39965 deaths (`r format(eval(6472 + 3079 + 2883), scientific = FALSE)` in SFL) since March 5, 2020
 
 
 ## COVID-19 Epidemic Timeline in South Florida
@@ -65,7 +65,7 @@ Slides available at <https://rpubs.com/gabrielodom/JSM_2021_COVID_visuals>
 
 
 ## Decision to Reopen
-- In mid-April 2020, the White House released [reopening guidelines](https://www.pbs.org/newshour/nation/white-house-coronavirus-guidelines-call-for-reopening-public-life-in-phases) based on 14-day trends in testing, positivity rates, and hospital capacity (*Note: at this point, the state of the science was that SARS-Cov-2 was primarily spread via surface contact*)
+- In mid-April 2020, the White House released [reopening guidelines](https://www.pbs.org/newshour/nation/white-house-coronavirus-guidelines-call-for-reopening-public-life-in-phases){target="_blank"} based on 14-day trends in testing, positivity rates, and hospital capacity (*Note: at this point, the state of the science was that SARS-Cov-2 was primarily spread via surface contact*)
 - The 14-day trend of case counts and test positivity rates became negative in early May, and hospitals had sufficient capacity
 - On May 18, 2020, Miami-Dade County lifted the lockdown restrictions
 
@@ -101,12 +101,12 @@ Slides available at <https://rpubs.com/gabrielodom/JSM_2021_COVID_visuals>
 
 # Question 3: Are we reporting COVID-19 deaths correctly?
 
-![https://slate.com/technology/2020/06/covid-death-rate-declining-explained.html](figures/COVID_deaths_headline_20200616.png)
+![https://slate.com/technology/2020/06/covid-death-rate-declining-explained.html](figures/COVID_deaths_headline_20200616.png){target="_blank"}
 
 ## Context: Peak of the 2nd Wave (July 2020)
 
 - During the rapid rise of COVID-19 cases and hospitalizations, some of the officials we met with noticed that the number of COVID-19 deaths reported by the state was decreasing, while the number of patients reported to be on ventilators in the hospital was increasing
-- Based on the medical experience at the time, we expected [80% of ventilated patients to expire](https://pubmed.ncbi.nlm.nih.gov/33119402/)
+- Based on the medical experience at the time, we expected [80% of ventilated patients to expire](https://pubmed.ncbi.nlm.nih.gov/33119402/){target="_blank"}
 
 </br>
 
@@ -124,13 +124,13 @@ Was this because COVID-19 was no longer a threat?
 - The grey columns are the reported COVID-19 deaths for March-June, 2020, as reported on July 1, 2020
 - The other stacked columns show how the counts for the exact same days will increase over time as more deaths are reported and certified
 - Using this figure, we convinced the local officials that daily death counts were completely inappropriate data to use in making health policy decisions
-- The local offices of the health department informed us that that medical examiners offices were hopelessly backlogged (Florida required at that time for all COVID-19 deaths to be certified by a medical examiner; [this policy changed in August](https://www.tampabay.com/news/health/2020/08/26/medical-examiners-no-longer-required-to-certify-covid-19-deaths-in-florida/))
+- The local offices of the health department informed us that that medical examiners offices were hopelessly backlogged (Florida required at that time for all COVID-19 deaths to be certified by a medical examiner; [this policy changed in August](https://www.tampabay.com/news/health/2020/08/26/medical-examiners-no-longer-required-to-certify-covid-19-deaths-in-florida/){target="_blank"})
 
 
 ## Making Inference
 
-- We no longer have 2-3 month delays in death reporting; this "lag" is 1-3 weeks now, and we have [a better understanding](https://covidtracking.com/analysis-updates/how-lagging-death-counts-muddied-our-view-of-the-pandemic) of the implications of this delay 
-- However, even in 2021, these same shoddy and misinterpreted data are still being used to erroneously claim that the Delta variant ["isn't that bad"](https://twitter.com/NateSilver538/status/1423243926421614595)
+- We no longer have 2-3 month delays in death reporting; this "lag" is 1-3 weeks now, and we have [a better understanding](https://covidtracking.com/analysis-updates/how-lagging-death-counts-muddied-our-view-of-the-pandemic){target="_blank"} of the implications of this delay 
+- However, even in 2021, these same shoddy and misinterpreted data are still being used to erroneously claim that the Delta variant ["isn't that bad"](https://twitter.com/NateSilver538/status/1423243926421614595){target="_blank"}
 
 ![](https://pbs.twimg.com/media/E8BfXdqXIAAI4Zm?format=jpg&name=medium)
 
@@ -151,9 +151,9 @@ Was this because COVID-19 was no longer a threat?
 
 ## Next steps
 
-- Our paper is [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7994185) (it's open access)
+- Our paper is [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7994185){target="_blank"} (it's open access)
 - The emergency order giving us access to the data expired in June 2021, so we have not had access to state data
-- We have access to similar data [from the CDC](https://healthdata.gov/Health/COVID-19-Community-Profile-Report/gqxm-d9w9), but they use a different data dictionary
+- We have access to similar data [from the CDC](https://healthdata.gov/Health/COVID-19-Community-Profile-Report/gqxm-d9w9){target="_blank"}, but they use a different data dictionary
 - We are in the process of reverse-engineering the state health department data from the CDC data in order to have an "apples to apples" comparison across the entire pandemic
 
 
@@ -165,5 +165,5 @@ Was this because COVID-19 was no longer a threat?
 
 </br>
 
-GitHub repository for this presentation: <https://github.com/gabrielodom/JSM_2021_COVID_Visuals>
+GitHub repository for this presentation: [https://github.com/gabrielodom/JSM_2021_COVID_Visuals](https://github.com/gabrielodom/JSM_2021_COVID_Visuals){target="_blank"}
 
