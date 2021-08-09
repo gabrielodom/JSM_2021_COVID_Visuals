@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+*.html
+
+recording/GMT20210808-033800_Recording_1920x1050.mp4
+recording/GMT20210808-033800_Recording.transcript.vtt
